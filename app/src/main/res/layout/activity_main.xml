@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="email"
+        android:hint="Email"
         android:inputType="textEmailAddress"
         android:padding="10dp" />
 
@@ -31,13 +31,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="senha"
+        android:hint="Senha"
         android:inputType="textPassword"
         android:padding="10dp" />
 
     <Button
         android:id="@+id/button_register"
-        android:layout_width="155dp"
+        android:layout_width="246dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
@@ -47,7 +47,7 @@
 
     <Button
         android:id="@+id/button_login"
-        android:layout_width="wrap_content"
+        android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"

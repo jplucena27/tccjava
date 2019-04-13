@@ -21,21 +21,22 @@
             android:text="Fazer Login"
             android:textColor="#000"
             android:textSize="30sp" />
+
         <EditText
-            android:padding="10dp"
-            android:layout_margin="5dp"
+            android:id="@+id/login_email_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="email"
-            android:id="@+id/login_email_input"
-            android:inputType="textEmailAddress"/>
+            android:layout_margin="5dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
 
         <EditText
             android:id="@+id/login_password_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="senha"
+            android:hint="Senha"
             android:inputType="textPassword"
             android:padding="10dp" />
         <Button
