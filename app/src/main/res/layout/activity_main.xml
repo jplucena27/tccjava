@@ -6,46 +6,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.tccjava.MainActivity">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="20dp"
-        android:textSize="30sp"
-        android:text="Register"
-        android:textColor="#000"/>
+        android:text="Cadastrar Usuário"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
     <EditText
-        android:padding="10dp"
-        android:layout_margin="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="email"
         android:id="@+id/signup_email_input"
-        android:inputType="textEmailAddress"/>
-    <EditText
-        android:padding="10dp"
-        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="password"
+        android:layout_margin="5dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
         android:id="@+id/signup_password_input"
-        android:inputType="textPassword"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="senha"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
     <Button
         android:id="@+id/button_register"
-        android:layout_width="wrap_content"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:background="#000"
-        android:textColor="#fff"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:background="#000"
+        android:text="Registrar"
+        android:textColor="#fff" />
+
     <Button
         android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:background="#000"
-        android:textColor="#fff"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:background="#000"
+        android:text="Já possuo cadastro"
+        android:textColor="#fff" />
 </LinearLayout>
