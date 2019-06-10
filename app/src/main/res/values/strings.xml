@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">TccJava</string>
     <string name="title_activity_maps">Map</string>
+    <string name="texto_login">Acessar</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="botao">Entrar</string>
+
+    <string name="titulo">Cadastro de Usuário</string>
+    <string name="registro_bt">Registrar</string>
+    <string name="entrar_bt">Já Possuo Cadastro</string>
+
+    <string name="titulo_2">Perfil</string>
+    <string name="sair_bt">Sair</string>
+    t
 </resources>

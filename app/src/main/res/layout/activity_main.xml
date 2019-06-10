@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="20dp"
-        android:text="Cadastrar Usuário"
+        android:text="@string/titulo"
         android:textColor="#000"
         android:textSize="30sp" />
 
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:padding="10dp" />
 
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:inputType="textPassword"
         android:padding="10dp" />
 
@@ -42,7 +42,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:background="#000"
-        android:text="Registrar"
+        android:text="@string/registro_bt"
         android:textColor="#fff" />
 
     <Button
@@ -52,6 +52,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:background="#000"
-        android:text="Já possuo cadastro"
+        android:text="@string/entrar_bt"
         android:textColor="#fff" />
 </LinearLayout>
